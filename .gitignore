@@ -1,5 +1,59 @@
-# Ignore Gradle project-specific cache directory
-.gradle
+# -------------------------
+# Gradle-related
+# -------------------------
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
 
-# Ignore Gradle build output directory
-build
+# Build scan cache
+.gradle-build-scan-data/
+
+# Gradle build output
+**/build/
+**/out/
+
+# -------------------------
+# IntelliJ IDEA
+# -------------------------
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# -------------------------
+# VS Code
+# -------------------------
+.vscode/
+
+# -------------------------
+# OS-specific
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Logs
+# -------------------------
+*.log
+logs/
+
+# -------------------------
+# Spring Boot
+# -------------------------
+# Local environment configs
+application-local.properties
+application-local.yml
+
+# -------------------------
+# Others
+# -------------------------
+*.class
+*.swp
+*.swo
+*.tmp
+
+# Ignore generated metadata (optional)
+*.jar
+*.war
+*.ear
